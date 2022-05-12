@@ -15,7 +15,6 @@ h2 {
   color: black;
   width: 150px;
   text-align: center;
-  float: right;
 }
 
 div div {
@@ -25,8 +24,7 @@ div div {
   color: white;
   width: 90%;
   height: 150px;
-  margin-right: auto;
-  margin-left: auto;
+  margin: 10px;
 }
 
 #one {
