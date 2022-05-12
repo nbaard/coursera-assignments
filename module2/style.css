@@ -2,7 +2,7 @@
 
 * {
   box-sizing: border-box;
-  font-family: sans-serif;
+  font-family: Merriweather, Open Sans, sans-serif;
 }
 
 h1 {
@@ -18,25 +18,24 @@ h2 {
 }
 
 div div {
-  background-color: blue;
-  opacity: 25%;
+  background-color: rgba(142, 163, 226, 0.8);
   border: 1px solid black;
-  color: white;
+  color: #1f2329;
   width: 90%;
   height: 150px;
   margin: 10px;
 }
 
 #one {
-  background-color: lightpink;
+  background-color: rgba(239, 93, 163, 0.8);
 }
 
 #two {
-  background-color: lightgreen;
+  background-color: rgba(93, 239, 110, 0.8);
 }
 
 #three {
-  background-color: lightgrey;
+  background-color: rgba(239, 172, 93, 0.8);
 }
 
 /* Simple Responsive Framework. */
