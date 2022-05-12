@@ -1,20 +1,23 @@
 /********** Base styles **********/
+
 * {
   box-sizing: border-box;
+  font-family: sans-serif;
 }
+
 h1 {
   margin-bottom: 15px;
 }
 
-p {
+div > div {
+  background-color: blue;
+  opacity: 0.5;
   border: 1px solid black;
-  background-color: #A52A2A;
-  width: 90%;
-  height: 150px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Helvetica;
   color: white;
+  width: ;
+  height: ;
+  margin-right: ;
+  margin-left: ;
 }
 
 /* Simple Responsive Framework. */
