@@ -6,21 +6,21 @@
 }
 
 h1 {
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   text-align: center;
   font-size: 1.75em;
 }
 
-div div div {
+div .inner {
   background-color: rgba(142, 163, 226, 0.8);
   border: 1px solid black;
   color: #1f2329;
-  padding: 5px;
   overflow: auto;
   height: 250px;
-  margin-right: auto;
-  margin-left: auto;
   margin-bottom: 20px;
+}
+
+.container {
 }
 
 h2 {
@@ -103,7 +103,7 @@ P {
 @media (min-width: 768px) and (max-width: 991px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
   float: left;
-  border: 20px solid transparent;
+  border: 10px solid transparent;
   }
   .col-md-1 {
     width: 8.33%;
@@ -140,7 +140,6 @@ P {
   }
   .col-md-12 {
     width: 100%;
-    clear: both;
   }
 }
 
@@ -148,7 +147,7 @@ P {
 @media (max-width: 767px) {
   .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12 {
   float: left;
-  border: 20px solid transparent;
+  border: 10px solid transparent;
   }
   .col-sm-1 {
     width: 8.33%;
