@@ -17,7 +17,7 @@ div .inner {
   color: #1f2329;
   overflow: auto;
   height: 250px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .container {
@@ -36,6 +36,7 @@ h2 {
 P {
   padding: 20px;
   clear: right;
+  margin: 0;
 }
 
 #one {
