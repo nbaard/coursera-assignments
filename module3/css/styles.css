@@ -1,13 +1,13 @@
 body {
   font-size: 16px;
   color: #fff;
-  background-color: #fad775;
+  background-color: #f4ebf5;
   font-family: 'Oxygen', sans-serif;
 }
 
 /** HEADER **/
 #header-nav {
-  background-color: #f6b319;
+  background-color: #ecccf0;
   border-radius: 0;
   border: 0;
 }
@@ -25,7 +25,7 @@ body {
 
 .navbar-brand h1 { /* Restaurant name */
   font-family: 'Lora', serif;
-  color: #557c3e;
+  color: #951C49;
   font-size: 1.5em;
   text-transform: uppercase;
   font-weight: bold;
@@ -75,11 +75,14 @@ body {
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
-  border: 1px solid #fad775;
+  border: 1px solid #951c49;
 }
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: -30px;
+}
+.burgundy {
+  color: #951C49;
 }
 /* END HEADER */
 
@@ -113,7 +116,7 @@ body {
 
 /*Home Page*/
 .container .jumbotron {
-  box-shadow: 0 0 50px #3F0C1F;
+  box-shadow: 0 0 50px #ccc;
   border: 2px solid #3F0C1F;
 }
 
@@ -179,6 +182,10 @@ body {
 }
 #menu-categories-tile + div {
   margin-bottom: 50px;
+  color:  black;
+}
+h2 {
+  color: black;
 }
 /* END MENU CATEGORIES PAGE */
 
@@ -194,9 +201,11 @@ body {
   text-align: right;
   margin-top: -15px;
   margin-right: -15px;
+  color: black;
 }
 .menu-item-tile .menu-item-price span {
   font-size: 0.6em;
+  color: black;
 }
 .menu-item-photo {
   position: relative;
@@ -218,13 +227,16 @@ body {
 }
 .menu-item-description {
   padding-right: 30px;
+  color: black;
 }
 h3.menu-item-title {
   margin: 0 0 10px;
+  text-emphasis: sesame;
 }
 .menu-item-details {
   font-size: 0.9em;
   font-style: italic;
+  color: black;
 }
 /* END SINGLE CATEGORY PAGE */
 
@@ -274,7 +286,7 @@ h3.menu-item-title {
 
 /********** Extra small devices only **********/
 @media (max-width: 767px) {
-  /* Header */
+  /* Header */ 
   .navbar-brand {
     padding-top: 10px;
     height: 80px;
@@ -304,8 +316,8 @@ h3.menu-item-title {
     display: block;
     margin: 0 20px;
     padding: 10px;
-    border: 2px solid #fff;
-    background-color: #f6b319;
+    border: 2px solid #951c49;
+    background-color: #ecccf0;
     color: #951c49;
   }
   #xs-deliver {
@@ -313,6 +325,7 @@ h3.menu-item-title {
     font-size: .7em;
     letter-spacing: .1em;
     text-transform: uppercase;
+    color: #951c49;
   }
   /* End Header */
 
@@ -333,7 +346,9 @@ h3.menu-item-title {
   .container .jumbotron {
     margin-top: 30px;
     padding: 0;
-    }
+    background: url(../images/jumbotron_768.1.jpg) no-repeat;
+    background-size: 100%;
+  } 
 
   #menu-tile, #specials-tile {
   width: 438px;
